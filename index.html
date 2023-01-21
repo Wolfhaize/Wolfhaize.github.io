@@ -278,7 +278,7 @@
         </div>
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
           <div class="w-full sm:w-1/2 p-6 mt-6">
-            <svg class="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-5/6 sm:h-64 mx-auto rounded" viewBox="0 0 1176.60617 873.97852" xmlns="http://www.w3.org/2000/svg">
               <title>connected world</title>
               <path
                 transform="translate(-11.697 -13.011)"
@@ -735,8 +735,9 @@
       }
     </script>
    <script>
-    function theme() {
+   function theme() {
       var main = document.querySelectorAll('div, a, h3, h2, p, body, section, svg');
+      var normal = document.querySelectorAll('svg, body');
 
 
       var body = document.body;
@@ -747,24 +748,25 @@
             main[i].classList.remove("gradient");
           }
       } 
-      else if(body.classList.contains('base')) {
-        for (var i = 0; i < main.length; i++) {
-            main[i].classList.remove("base");
-            main[i].classList.add("dgradient");
-          }
-      }
-      
-      else {
+      else if(body.classList.contains('dgradient')) {
         for (var i = 0; i < main.length; i++) {
             main[i].classList.remove("dgradient");
             main[i].classList.add("base");
           }
+      } 
+      else if(body.classList.contains('base')) {
+        for (var i = 0; i < main.length; i++) {
+            main[i].classList.remove("base");
+            normal[i].classList.add("gradient");
 
+            
+
+          }
       }
-     
+      
+
 
     }
-    
    </script>
 
   </body>
