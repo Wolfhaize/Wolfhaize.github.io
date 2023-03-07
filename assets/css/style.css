@@ -1142,3 +1142,32 @@ display: inline;
 }
 
 
+.progress-container {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 5px;
+}
+
+.article-progress {
+  background: var(--caramel);
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.1s ease;
+}
+
+.sec-1 {
+  background: #cee7ff;
+}
+.sec-2 {
+  background: #ffd9e5;
+}
+.sec-3 {
+  background: #ffe9d1;
+}
+.sec-4 {
+  background: #e6ffda;
+}
+
+
