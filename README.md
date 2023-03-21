@@ -7,4 +7,4 @@ Koffie is a simple bot meant to help spread positivity and make your day better.
 
 ## [Join the Support Server](https://discord.gg/pwgH5bKhv4)
 
-## [Buy Me A Coffee](https://www.ko-fi.com/Wolfhaize)
+### [Buy Me A Coffee](https://www.ko-fi.com/Wolfhaize)
