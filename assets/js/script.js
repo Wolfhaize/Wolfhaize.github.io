@@ -38,7 +38,7 @@ window.addEventListener("scroll", function () {
 });
 
 
-/*const letters = "abcdefghijklmnopqrstuvwxyz";
+const letters = "abcdefghijklmnopqrstuvwxyz";
 
 let interval = null;
 
@@ -65,7 +65,7 @@ document.getElementById("spin").onmouseover = event => {
     
     iteration += 1 / 3;
   }, 50);
-}*/
+}
 
 
 const progress = document.querySelector(".article-progress");
